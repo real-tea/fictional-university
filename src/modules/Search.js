@@ -135,7 +135,7 @@ class Search {
     setTimeout(() => this.searchField.focus(), 301) // Focus on search field after a short delay
     console.log("our open method just ran!") // Log that the open method ran
     this.isOverlayOpen = true // Set overlay open flag
-    return false
+    return false;
   }
 
   // Function to close the search overlay
